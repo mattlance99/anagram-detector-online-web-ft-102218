@@ -14,7 +14,6 @@ class Anagram
     
   end  
   #in match, run through the array and compare it to the word from initialize. return an array that has an anagram.
-  new_array = array.split("")
 
-  end
+
 end
