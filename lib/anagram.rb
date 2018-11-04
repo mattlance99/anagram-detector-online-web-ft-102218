@@ -9,11 +9,7 @@ class Anagram
 #array of words in match
   def match(array)
   #in match, run through the array and compare it to the word from initialize. return an array that has an anagram.
-  
-    array.split("")
+  new_array = array.split("")
 
-    a.select { |v| v =~ /[aeiou]/ }  #=> ["a", "e"]
-    @word_to_check = array
-    array_matches
   end
 end
