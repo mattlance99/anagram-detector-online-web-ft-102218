@@ -5,8 +5,7 @@ class Anagram
   def initialize(word)
     @word_to_check = word
   end
-#take word on initialization and then compare it to a 
-#array of words in match
+
   def match(array)
     array_matches = []
     array.each do |word|
@@ -17,7 +16,5 @@ class Anagram
     end
     array_matches
   end  
-  #in match, run through the array and compare it to the word from initialize. return an array that has an anagram.
-
 
 end
