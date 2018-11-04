@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-    if @word_to_check == array.split("")
+    array.split("")
     end
     a.select { |v| v =~ /[aeiou]/ }  #=> ["a", "e"]
     @word_to_check = array
