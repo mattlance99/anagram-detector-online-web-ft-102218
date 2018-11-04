@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(array)
+    
     @word_to_check = array
     array_matches
   end
