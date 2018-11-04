@@ -8,6 +8,7 @@ class Anagram
 #take word on initialization and then compare it to a 
 #array of words in match
   def match(array)
+    array_matches = []
     array.each do |word|
       word_array = word.split("")
       if word_array == @word_to_check
