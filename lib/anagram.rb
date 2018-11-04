@@ -10,9 +10,11 @@ class Anagram
   def match(array)
     array.each do |word|
       word_array = word.split("")
-      puts "This is my #{word_array}"
+      if word_array.sort == @word_to_check.sort
+        array_matches << word
+      end
     end
-    
+    array_matches
   end  
   #in match, run through the array and compare it to the word from initialize. return an array that has an anagram.
 
