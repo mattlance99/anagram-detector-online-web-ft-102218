@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :array_matches :word_to_check
+  attr_accessor :word_to_check
 
   def initialize(word)
     @word_to_check = word
